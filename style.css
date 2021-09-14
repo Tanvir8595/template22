@@ -1,0 +1,215 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bg {
+    background-color: #f9f9ff;
+}
+
+img {
+    max-width: 100%;
+}
+.menu{
+    background-color: #fff;
+}
+.navbar img {
+    width: 100px;
+}
+
+.collapse .nav-link {
+    color: #828282;
+    /* font-size: 20px; */
+    margin-left: 20px;
+}
+
+.menu-ieam ul li{
+    position: relative;
+}
+.menu-ieam ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    background-color: white;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    transform: scaleY(0);
+    transform-origin: top center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.menu-ieam ul li ul li{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #aaaaaf;
+    
+    
+}
+.menu-ieam ul li ul li:last-child{
+    border-bottom: 0;
+}
+.menu-ieam ul li ul li a{
+    display: block;
+  
+   
+}
+.nav-item .nav-link{
+    margin-left: 0;
+    padding-left: 0;
+}
+.menu-ieam ul li:hover ul{
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+.banner-content h6 {
+    margin-top: 160px;
+}
+
+
+
+.p-left img {
+    border: 1px solid rgba(117, 115, 115, 0.445);
+}
+
+.about-me {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.about-me h5 {
+    margin-bottom: 20px;
+}
+
+.about-me h1 {
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+.number-cunter {
+    background-color: #8490ff;
+    color: #fff;
+    padding: 100px;
+}
+
+
+
+
+
+.pricing-area {
+    background-color: #ffff;
+    box-shadow: 3px 4px 20px 0 #5c6d9b;
+}
+
+.pricing-table h1 {
+    font-size: 55px;
+}
+
+.pricing-table p {
+    font-size: 23px;
+}
+
+.pricing-area span {
+    font-size: 25px;
+    font-weight: 600;
+    height: 120px;
+    width: 120px;
+    background-color: #dadae4;
+    display: inline-block;
+    line-height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.pricing-area h5 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.pricing-area h6 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.pricing-area h4 {
+    font-size: 20px;
+}
+
+.pricing-area h3 {
+    font-size: 23px;
+    margin: 50px 0;
+}
+
+
+
+.team-area {
+    margin-top: 200px;
+}
+
+.card {
+    border: 0;
+    box-shadow: 3px 4px 20px 0 #8490ff;
+}
+
+.i-top {
+    margin-top: -53px;
+    width: 91px;
+    height: auto;
+}
+.card-body p{
+    font-size: 17px;
+}
+.bls{
+    box-shadow: 3px 4px 20px 0 #3e4266 !important;
+}
+
+
+
+
+
+.contact-form{
+    background-color: #f9f9ff !important;
+}
+.message-area{
+    background-color: rgb(255, 255, 255);
+}
+
+.contact-number{
+    margin-top: 130px;
+}
+.contact-number h2{
+    font-size: 40px;
+}
+.contact-number h6{
+    /* margin-top: 35px; */
+    padding: 15px 0;
+}
+
+.footer{
+    background-color:#04091e ;
+    color: #fff;
+}
